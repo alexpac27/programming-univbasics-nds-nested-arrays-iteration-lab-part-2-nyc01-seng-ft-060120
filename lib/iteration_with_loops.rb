@@ -14,3 +14,5 @@ def find_min_in_nested_arrays(array)
   end
   p low_temps
 end
+
+find_min_in_nested_arrays(array)
