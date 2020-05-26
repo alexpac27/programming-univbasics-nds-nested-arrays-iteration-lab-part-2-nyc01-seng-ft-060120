@@ -6,9 +6,10 @@ array = [
 
 def find_min_in_nested_arrays(array)
   count = 0
-
+  low_temps = []
   while count < array.length do
-    
+    array[count].sort
+
   end
 
 
