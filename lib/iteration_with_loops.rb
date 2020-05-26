@@ -10,6 +10,7 @@ def find_min_in_nested_arrays(array)
   while count < array.length do
     array[count].sort
     low_temps << array[count][0]
+    count += 1
   end
 
 
